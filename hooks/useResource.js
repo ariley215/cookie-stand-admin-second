@@ -9,7 +9,7 @@ export default function useResource() {
 
     const { data, error, mutate } = useSWR([apiUrl, tokens], fetchResource);
 
-    async function fetchResource(url) {
+    async function fetchResource(apiUrl) {
 
         if (!tokens) {
             return;

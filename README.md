@@ -8,7 +8,7 @@ Author: Andrea Riley(Thiel)
 
 back-end server url:
 
-    cookie-stand-api-second.vercel.app
+    https://cookie-stand-api-second.vercel.app/api/v1/cookie-stands/
 
 front-end application:
 
@@ -16,9 +16,9 @@ front-end application:
 
 ## Setup
 
-PORT - 3000
+PORT - 8000
 
-DATABASE_URL - URL to the running Postgres instance/db
+DATABASE_URL - postgres://mcrtyqjz:foYYUcpiTgzmN1bQI6qW3mFJ8pofQODB@ruby.db.elephantsql.com/mcrtyqjz
 
 How to initialize/run your application
 
