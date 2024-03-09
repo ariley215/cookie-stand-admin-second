@@ -8,9 +8,9 @@ export default function useResource() {
     const { tokens, logout } = useAuth();
 
     const { data, error, mutate } = useSWR([apiUrl, tokens], fetchResource);
-
+    console.log(apiUrl)
     async function fetchResource(apiUrl) {
-
+        
         if (!tokens) {
             return;
         }
