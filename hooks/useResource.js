@@ -1,6 +1,6 @@
 import useSWR from 'swr';
 
-export const apiUrl = 'https://cookie-stand-api-second.vercel.app/api/v1/cookie-stands/';
+export const apiUrl = process.env.NEXT_PUBLIC_API_URL;
 import { useAuth } from '../contexts/auth';
 
 export default function useResource() {
